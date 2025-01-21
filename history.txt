@@ -1,0 +1,290 @@
+    1  git config --global user.name "Ben Shupe"
+    2  git config --global user.name "bendshupe@gmail.com
+    3  git config --global user.name "bendshupe@gmail.com"
+   10  git init
+   11  git status
+   12  git status
+   13  git config --global user.name "Ben Shupe"
+   14  git config --global user.name "bendshupe@gmail.com"
+   15  git config --global core.editior "code --wait"
+   16  git status
+   19  git add file_2.txt 
+   20  git status
+   21  git log --oneline
+   22  git --version
+   23  git config --global use.name "Ben Shupe"
+   24  git config --global user.email "bendshupe@gmail.com"
+   25  git config --global init.defaultBranch main
+   38  cd /c/Users/bends/Documents/BYU_2023-24/Fall_2023/STAT386/git_practice/
+   39  git status
+   40  git init
+   41  git status
+   46  cd Documents/BYU_2023-24/Fall_2023/STAT386/git_practice/
+   47  git init
+   52  git status
+   53  git add file_1.txt
+   54  git add file_2.txt
+   55  git status
+   56  git commit -m "create new files"
+   57  git status
+   58  git log
+   59  git status
+   60  git add file_1.txt 
+   61  git commit -m "more git practice 1"
+   62  git status
+   63  git add "file_2.txt" 
+   64  git commit -m "more git practice 2"
+   65  git log
+   67  git add Readme.md 
+   68  git commit -m "added Readme"
+   69  touch .gitignore
+   71  git status
+   72  git add .gitignore 
+   73  git commit -m "added gitignore"
+   74  git stauts
+   75  git status
+   76  git branch [features]
+   77  git branch features
+   78  git switch features
+   79  git log
+   83  cd Documents/BYU_2023-24/Fall_2023/STAT386/git_practice/
+   85  git log
+   86  git status
+   88  git status
+   89  git add new_features.txt 
+   90  git commit -m "adding new features"
+   91  git switch main
+   92  git add file_1.txt 
+   93  git commit -m "added line to file_1"
+   94  git merge features 
+   95  git log
+   96  git add new_features.txt 
+   97  git commit -m "no new features"
+   98  git switch features
+   99  git add new_features.txt 
+  100  git commit -m "new line of text in new_features"
+  101  git switch main
+  102  git merge features
+  103  git status
+  104  git add new_features.txt
+  105  git add Readme.md
+  106  git commit -m 
+  107  git commit -m "conflict resolution"
+  108  git merge features 
+  109  git branch -d features 
+  110  git remode add origin git@github.com:shupe64/git-practice-shupe64.git
+  111  git remote add origin git@github.com:shupe64/git-practice-shupe64.git
+  112  git push -u origin main
+  113  git log --online > gitlog.txt
+  114  git log --oneline > gitlog.txt
+  115  history | grep git > history.txt
+  117  cd Documents/BYU_2023-24/Fall_2023/STAT386/git_practice/
+  118  git add gitlog.txt
+  119  git add history.txt
+  120  git commit -m "log and history"
+  121  git push -u origin main
+  132  git clone git@github.com:shupe64/shupe64.github.io.git
+  135  git clone git@github.com:s386Fall2023/lab-03-shupe64.git
+  137  git clone git@github.com:s386Fall2023/lab-03-shupe64.git
+  140  git clone git@github.com:s386Fall2023/lab-03-shupe64.git
+  145  git clone https://github.com/s386Fall2023/lab-04-shupe64
+  146  git clone https://github.com/s386Fall2023/lab-05-shupe64
+  149  git clone https://github.com/s386Fall2023/lab-05-shupe64
+  153  git init
+  154  touch .gitignore
+  155  git branch
+  156  git branch new-feature
+  157  git branch new-feature
+  158  git branch new
+  159  git
+  160  git branch main2
+  162  git add test.txt 
+  163  git commit -m "First commit"
+  164  git branch
+  165  git branch new-feature
+  166  git branch
+  167  git switch new-feature
+  169  git switch main
+  170  git switch branch
+  171  git switch new-feature 
+  173  git commit -m branch
+  174  git log
+  175  git merge new-feature
+  176  git switch main 
+  177  git merge new-feature
+  178  git branch -d new-feature
+  179  git branch 
+  190  cd git-practice-shupe64/
+  191  git init
+  194  git status
+  195  git add *
+  196  git status
+  200  git commit
+  201  git commit
+  202  git status
+  203  git log
+  204  git status
+  205  git add file_1.txt
+  206  git commit
+  207  git status
+  208  git commit -a file_2.txt 
+  209  git commit file_2.txt 
+  210  git log
+  212  git add Readme.md 
+  213  git commit Readme.md 
+  214  git commit Readme.md 
+  215  touch .gitignore
+  216  git add .gitignore | git commit -m "added git ignore file"
+  217  git status
+  218  git log
+  220  git status
+  221  git status
+  222  git log
+  223  git branch features
+  225  git log
+  226  git features
+  227  git branch features
+  228  git checkout
+  229  git checkout features
+  231  git add new_features.txt | git commit -m "added new features"
+  232  git add new_features.txt | git commit -m "added text to new features"
+  233  git checkout
+  234  git checkout main
+  235  git add file_1.txt | git commit -m "added to file_1"
+  236  git merge
+  237  git merge features
+  238  git log
+  239  git - version
+  240  git -version
+  241  git --version
+  242  git confic --global use.name Benjamin Shupe
+  243  git config --global use.name Benjamin Shupe
+  244  git config --global user.email "bendshupe@gmail.com"
+  245  git config --global use.name "Benjamin Shupe"
+  246  git config --global core.editor "code --wait"
+  247  git config --global init.defaultBranch main
+  248  git --help
+  252  git cd
+  259  mkdir git_Practice
+  260  cd git_Practice/
+  261  git init
+  263  git status
+  264  git add new_file.txt 
+  265  git status
+  266  git commit -m 'first commit'
+  267  git status
+  268  git status
+  271  mkdir 'git-practice-shupe64
+  272  mkdir 'git-practice-shupe64'
+  285  mkdir git-practice-shupe64
+  286  cd git-practice-shupe64/
+  287  git init
+  289  git status
+  292  git status
+  293  git add .
+  294  git status
+  295  git commit -m 'create new files'
+  296  git status
+  297  git log
+  298  git status
+  299  git add file_1.txt 
+  300  git commit -m 'add text to file_1'
+  301  git add file_2.txt 
+  302  git commit -m 'add text to file_2'
+  303  git status
+  304  git log
+  307  git add Readme.md 
+  308  git commit -m 'added readme'
+  309  git log
+  310  touch .gitignore
+  312  git status
+  313  git add .
+  314  git status
+  315  git commit 'add api-keys and gitignore'
+  316  git commit - 'add api-keys and gitignore'
+  317  git commit -m 'add api-keys and gitignore'
+  318  git status
+  319  git status
+  320  git add .
+  321  git commit -m 'gitignore api-keys.txt'
+  322  git status
+  324  cd Documents/BYU_2025/STAT386/git-practice-shupe64/
+  325  git branch
+  326  git branch [features]
+  327  git branch features
+  328  git branch
+  329  git switch -c features
+  330  git switch features
+  331  git log
+  333  git commit -m 'add empty file'
+  334  git add new_features.txt
+  335  git commit -m 'add empty file'
+  336  git add new_features.txt 
+  337  git commit -m 'add new features text'
+  338  git switch main
+  339  git add -m 'add text to file_1.txt'
+  340  git add file_1.txt 
+  341  git commit -m 'add text to file_1.txt'
+  342  git merge features
+  343  git log
+  344  git add new_features.txt 
+  345  git commit -m 'change new_features.txt'
+  346  git branch features
+  347  git switch features
+  348  git add new_features.txt 
+  349  git commit -m  'change new_features.txt'
+  350  git switch main
+  351  git merge features
+  352  git add new_features.txt 
+  353  git commit -m 'fix merge conflict'
+  354  git log
+  355  git status
+  356  git switch features
+  357  git branch -d features
+  358  git switch main
+  359  git branch -d features
+  360  git remote add originnit@github.com:Stat386-Winter2025/lab-02.git
+  361  git remote add origin git@github.com:Stat386-Winter2025/lab-02.git
+  362  git push -u origin main
+  363  git remote add origin git@github.com:shupe64/git-practice-shupe64.git
+  364  git push -u origin main
+  365  git remote add origin git@github.com:shupe64/git-practice-shupe64.git
+  366  git remote remove origin
+  367  git remote add origin git@github.com:shupe64/git-practice-shupe64.git
+  368  git push -u origin main
+  374  mkdir vscode-git
+  375  vscode-git/
+  376  cd vscode-git/
+  384  git clone https://github.com/esnt/stat386-blog-theme
+  385  git remote add origin git@github.com:shupe64/my-blog.git
+  386  git branch -M main
+  387  git push -u origin main
+  388  git remote add origin git@github.com:shupe64/my-blog.git
+  389  git branch -M main
+  390  git remote add origin git@github.com:shupe64/my-blog.git
+  391  git remote add origin git@github.com:shupe64/my-blog.git
+  392  git push -u origin main
+  393  git init
+  394  git status
+  395  [200~git remote add origin git@github.com:shupe64/my-blog.git
+  396  git branch -M main
+  397  git remote add origin git@github.com:shupe64/my-blog.git
+  398  git branch -M main
+  399  git push -u origin main
+  400  git remote add origin git@github.com:shupe64/my-blog.git
+  401  git remote -v
+  402  git push -u origin main
+  403  git remote add origin https://github.com/shupe64/my-blog.git
+  404  git remote remove
+  405  git remote remove origin
+  406  git remote add git@github.com:shupe64/my-blog.git
+  407  git remote add origin git@github.com:shupe64/my-blog.git
+  408  git branch -M main
+  409  git push -u origin main
+  412  git clone https://github.com/shupe64/git-practice-ericanti
+  413  cd git-practice-ericanti/
+  414  git push origin feature-shupe64
+  417  cd git-practice-shupe64/
+  418  git pull
+  419  git log --oneline > gitlog.txt
+  420  history | grep git > history.txt
